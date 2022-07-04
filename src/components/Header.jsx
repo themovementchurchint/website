@@ -40,9 +40,9 @@ function Header() {
         </div>
         <div className="navbar-end">
           <div className=" pr-4 md:flex hidden">
-            <a href="https://www.facebook.com/The-Movement-Church-INT-100116675269097"><FaFacebookSquare size="1.5em" className="mx-2" /></a>
-            <a href="https://youtube.com"><FaYoutube size="1.5em" className="mx-2" /></a>
-            <a href="https://instagram.com"><FaInstagram size="1.5em" className="mx-2" /></a>
+            <a href={process.env.REACT_APP_FACEBOOK_LINK}><FaFacebookSquare size="1.5em" className="mx-2" /></a>
+            <a href={process.env.REACT_APP_YOUTUBE_LINK}><FaYoutube size="1.5em" className="mx-2" /></a>
+            <a href={process.env.REACT_APP_INSTAGRAM_LINK}><FaInstagram size="1.5em" className="mx-2" /></a>
           </div>
         </div>
       </nav>

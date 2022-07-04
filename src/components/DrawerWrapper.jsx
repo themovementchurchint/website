@@ -34,13 +34,13 @@ function DrawerWrapper(props) {
             <HashLink smooth to={'#connect'}>Connect</HashLink>
           </li>
           <li className="flex flex-row align-center flex-nowrap justify-center">
-            <a href="https://www.facebook.com/The-Movement-Church-INT-100116675269097">
+            <a href={process.env.REACT_APP_FACEBOOK_LINK}>
               <FaFacebookSquare size="1.5em" className="" />
             </a>
-            <a href="https://youtube.com">
+            <a href={process.env.REACT_APP_YOUTUBE_LINK}>
               <FaYoutube size="1.5em" className="" />
             </a>
-            <a href="https://instagram.com">
+            <a href={process.env.REACT_APP_INSTAGRAM_LINK}>
               <FaInstagram size="1.5em" className="" />
             </a>
           </li>
