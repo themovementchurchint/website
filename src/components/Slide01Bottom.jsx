@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link'
 
 function Slide01Bottom() {
   return (
@@ -11,8 +12,10 @@ function Slide01Bottom() {
             in those who would recieve this Christ conscienceness that leads to
             a transformed life based on a committed relationship with him!
           </p>
-          <div className="w-100 flex justify-end">
-            <button className="btn btn-primary w-1/2">Read More</button>
+          <div className="w-full flex justify-end">
+            <HashLink smooth to={'#what-we-believe'}>
+              <button className="btn btn-primary w-full">Read More</button>
+            </HashLink>
           </div>
         </div>
       </div>
@@ -24,8 +27,10 @@ function Slide01Bottom() {
             family and we look forward to connecting with you! Join us live for
             Sunday Services Online at 1pm EST.
           </p>
-          <div className="w-100 flex justify-end">
-            <button className="btn btn-primary w-1/2">Get Directions</button>
+          <div className="w-full flex justify-end">
+            <HashLink smooth to={'#come-visit'}>
+              <button className="btn btn-primary w-full">Get Directions</button>
+            </HashLink>
           </div>
         </div>
       </div>
@@ -37,8 +42,10 @@ function Slide01Bottom() {
             generational kingdom model that demonstrates wholeness, welth,
             abundant living free from religious barricades.
           </p>
-          <div className="w-100 flex justify-end">
-            <button className="btn btn-primary w-1/2">Connect with Us</button>
+          <div className="w-full flex justify-end">
+            <HashLink smooth to={'#connect'}>
+              <button className="btn btn-primary w-full">Connect with Us</button>
+            </HashLink>
           </div>
         </div>
       </div>

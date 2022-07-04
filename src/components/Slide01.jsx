@@ -10,6 +10,7 @@ function Slide01() {
         backgroundImage: `url(${process.env.PUBLIC_URL + '/background.jpg'})`,
         backgroundRepeat: 'no-repeat',
       }}
+      id="home"
     >
       <Slide01Hero />
       <Slide01Bottom />

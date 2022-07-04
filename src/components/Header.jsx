@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link'
 import { FiMenu } from 'react-icons/fi'
 import { FaFacebookSquare, FaYoutube, FaInstagram } from 'react-icons/fa'
 import Logo from '../logo.svg'
@@ -20,16 +21,16 @@ function Header() {
         <div className="navbar-center">
           <ul className="menu menu-horizontal p-0  lg:flex hidden">
             <li>
-              <a>Home</a>
+              <HashLink smooth to={'#home'}>Home</HashLink>
             </li>
             <li>
-              <a>What We Believe</a>
+              <HashLink smooth to={'#what-we-believe'}>What We Believe</HashLink>
             </li>
             <li>
-              <a>Come Visit</a>
+              <HashLink smooth to={'#come-visit'}>Come Visit</HashLink>
             </li>
             <li>
-              <a>Connect</a>
+              <HashLink smooth to={'#connect'}>Connect</HashLink>
             </li>
           </ul>
           <div className="text-xl items-center flex md:hidden">
@@ -39,9 +40,9 @@ function Header() {
         </div>
         <div className="navbar-end">
           <div className=" pr-4 md:flex hidden">
-            <FaFacebookSquare size="1.5em" className="mx-2" />
-            <FaYoutube size="1.5em" className="mx-2" />
-            <FaInstagram size="1.5em" className="mx-2" />
+            <a href="https://www.facebook.com/The-Movement-Church-INT-100116675269097"><FaFacebookSquare size="1.5em" className="mx-2" /></a>
+            <a href="https://youtube.com"><FaYoutube size="1.5em" className="mx-2" /></a>
+            <a href="https://instagram.com"><FaInstagram size="1.5em" className="mx-2" /></a>
           </div>
         </div>
       </nav>

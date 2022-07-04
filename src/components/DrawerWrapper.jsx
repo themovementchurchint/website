@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link'
 import { FiX } from 'react-icons/fi'
 import { FaFacebookSquare, FaYoutube, FaInstagram } from 'react-icons/fa'
 
@@ -21,25 +22,25 @@ function DrawerWrapper(props) {
             </div>
           </label>
           <li>
-            <a>Home</a>
+            <HashLink smooth to={'#home'}>Home</HashLink>
           </li>
           <li>
-            <a>What We Believe</a>
+            <HashLink smooth to={'#what-we-believe'}>What We Believe</HashLink>
           </li>
           <li>
-            <a>Come Visit</a>
+            <HashLink smooth to={'#come-visit'}>Come Visit</HashLink>
           </li>
           <li>
-            <a>Connect</a>
+            <HashLink smooth to={'#connect'}>Connect</HashLink>
           </li>
           <li className="flex flex-row align-center flex-nowrap justify-center">
-            <a>
+            <a href="https://www.facebook.com/The-Movement-Church-INT-100116675269097">
               <FaFacebookSquare size="1.5em" className="" />
             </a>
-            <a>
+            <a href="https://youtube.com">
               <FaYoutube size="1.5em" className="" />
             </a>
-            <a>
+            <a href="https://instagram.com">
               <FaInstagram size="1.5em" className="" />
             </a>
           </li>

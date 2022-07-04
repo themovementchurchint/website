@@ -3,7 +3,7 @@ import logo from '../logo.svg'
 
 function Slide01Hero() {
   return (
-    <div className="flex justify-center hero-overlay bg-secondary bg-opacity-5">
+    <div className="flex justify-center hero-overlay bg-secondary bg-opacity-5 min-h-[870px]">
       {/* <div className="hero-content text-center text-neutral-content min-h-screen">
             <div className="flex flex-col md:flex-row items-center my-12 md:my-24 bg-white bg-opacity-5 rounded-2xl">
               <div className="flex flex-col w-full lg:w-1/2 justify-end items-center pt-12 lg:pb-24 pb-12 px-6">
