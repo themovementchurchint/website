@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d119b9f4.css",
-    "main.js": "/static/js/main.bc82e661.js",
+    "main.css": "/static/css/main.63f4d641.css",
+    "main.js": "/static/js/main.f108c642.js",
+    "static/media/Pic1.jpg": "/static/media/Pic1.f313edf35e9610ed9bb5.jpg",
+    "static/media/Pic2.jpg": "/static/media/Pic2.1a6c348a13a7ec504ee7.jpg",
+    "static/media/InstagramLogo.svg": "/static/media/InstagramLogo.8eb286619e3cff41078cf8e908a1d28b.svg",
+    "static/media/Waze-icon.webp": "/static/media/Waze-icon.c1ee986bd65b161fe8ad.webp",
+    "static/media/AppleMaps-icon.svg": "/static/media/AppleMaps-icon.c0f206acda7ffe9e0de567f5dbfa44a3.svg",
+    "static/media/YoutubeLogo.svg": "/static/media/YoutubeLogo.39a29ffe308d96fa6e1dcd776f6262c1.svg",
+    "static/media/GoogleMaps-icon.svg": "/static/media/GoogleMaps-icon.5876d19947beaa30a87535ad9c163daf.svg",
     "static/media/logo.svg": "/static/media/logo.771ca7ab9508095106fb1b60082aa52d.svg",
+    "static/media/MapQuest-icon.svg": "/static/media/MapQuest-icon.c8d24b224e1b535b667658c38eb926bd.svg",
+    "static/media/FacebookLogo.svg": "/static/media/FacebookLogo.5d3ff9fddd3e77b05ab54109c9415a38.svg",
     "index.html": "/index.html",
-    "main.d119b9f4.css.map": "/static/css/main.d119b9f4.css.map",
-    "main.bc82e661.js.map": "/static/js/main.bc82e661.js.map"
+    "main.63f4d641.css.map": "/static/css/main.63f4d641.css.map",
+    "main.f108c642.js.map": "/static/js/main.f108c642.js.map"
   },
   "entrypoints": [
-    "static/css/main.d119b9f4.css",
-    "static/js/main.bc82e661.js"
+    "static/css/main.63f4d641.css",
+    "static/js/main.f108c642.js"
   ]
 }
