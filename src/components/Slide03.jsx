@@ -49,8 +49,8 @@ function Slide03() {
   return (
     <div id="come-visit" className="relative hero min-h-screen">
       <div style={{ zIndex: 10 }}>
-        <div className="flex flex-row">
-          <div className="flex w-1/2 min-w-[300px] m-6">
+        <div className="flex flex-col lg:flex-row justify-center">
+          <div className="flex w-full lg:w-1/2 min-w-[260px] p-2 lg:m-6 max-w-[720px]">
             <div className="card m-2 bg-base-100 shadow-xl min-h-[300px] justify-center">
               <div>
                 <div className="card-title p-4 mt-8 mb-0 pb-0 justify-center">
@@ -67,7 +67,7 @@ function Slide03() {
               </div>
             </div>
           </div>
-          <div className="flex w-1/2 min-w-[300px] m-6">
+          <div className="flex w-full lg:w-1/2 min-w-[260px] p-2 lg:m-6 max-w-[720px]">
             <div className="card m-2 bg-base-100 shadow-xl min-h-[300px]">
               <div className="card-title p-4 mt-8 mb-0 pb-0 justify-center">
                 DIRECTIONS
@@ -78,7 +78,7 @@ function Slide03() {
                     href={process.env.REACT_APP_MAPS_APPLE_LINK}
                     className="m-4"
                   >
-                    <div className="w-32 h-32">
+                    <div className="w-24 h-24 lg:w-32 lg:h-32">
                       <img src={AppleMapsIcon} alt="Apple Maps" />
                     </div>
                     <div className="text-center">Apple Maps</div>
@@ -87,7 +87,7 @@ function Slide03() {
                     href={process.env.REACT_APP_MAPS_GOOGLE_LINK}
                     className="m-4"
                   >
-                    <div className="w-32 h-32">
+                    <div className="w-24 h-24 lg:w-32 lg:h-32">
                       <img src={GoogleMapsIcon} alt="Google Maps" />
                     </div>
                     <div className="text-center">Google Maps</div>
@@ -96,7 +96,7 @@ function Slide03() {
                     href={process.env.REACT_APP_MAPS_MAPQUEST_LINK}
                     className="m-4"
                   >
-                    <div className="w-32 h-32">
+                    <div className="w-24 h-24 lg:w-32 lg:h-32">
                       <img src={MapQuestIcon} alt="Mapquest Maps" />
                     </div>
                     <div className="text-center">Mapquest</div>
@@ -105,7 +105,7 @@ function Slide03() {
                     href={process.env.REACT_APP_MAPS_WAZE_LINK}
                     className="m-4"
                   >
-                    <div className="w-32 h-32">
+                    <div className="w-24 h-24 lg:w-32 lg:h-32">
                       <img
                         src={WazeIcon}
                         alt="Waze Maps"

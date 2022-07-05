@@ -15,8 +15,8 @@ function Slide02() {
       <div className="flex justify-center hero-overlay bg-secondary bg-opacity-5">
         <div className="hero-content text-center my-20">
           <div className="flex flex-col">
-            <div className="flex flex-row items-stretch">
-              <div className="w-1/2 min-w-[300px]">
+            <div className="flex lg:flex-row items-stretch flex-col">
+              <div className="lg:w-1/2 min-w-[260px] w-full">
                 <div className="card m-2 bg-base-100 shadow-xl min-h-[300px]">
                   <div className="card-title p-4 justify-center pt-8">
                     OUR VISION
@@ -62,10 +62,10 @@ function Slide02() {
                   </div>
                 </div>
               </div>
-              <div className="w-1/2 min-w-[300px]">
-                <div className="card m-2 bg-base-100 shadow-xl overflow-hidden h-[98.5%]">
+              <div className="lg:w-1/2 min-w-[260px] w-full">
+                <div className="card m-2 bg-base-100 shadow-xl overflow-hidden lg:h-[98.5%] min-h-[300px]">
                   <div
-                    className="h-full overflow-hidden"
+                    className="h-full overflow-hidden min-h-[300px]"
                     style={{
                       backgroundSize: 'cover',
                       backgroundPosition: 'center',
@@ -78,9 +78,9 @@ function Slide02() {
               </div>
             </div>
             <div className="w-full"></div>
-            <div className="flex">
-              <div className="w-1/2 min-w-[300px]">
-                <div className="card m-2 bg-base-100 shadow-xl overflow-hidden h-full">
+            <div className="flex flex-col-reverse lg:flex-row">
+              <div className="lg:w-1/2 min-w-[260px] md:w-full">
+                <div className="card m-2 bg-base-100 shadow-xl overflow-hidden h-full hidden lg:flex">
                   <div
                     className="h-full overflow-hidden"
                     style={{
@@ -91,7 +91,7 @@ function Slide02() {
                   ></div>
                 </div>
               </div>
-              <div className="w-1/2 min-w-[300px]">
+              <div className="lg:w-1/2 min-w-[260px] w-full">
                 <div className="card m-2 bg-base-100 shadow-xl h-full">
                   <div className="card-title p-4 justify-center pt-8 font-bold text-primary-content text-2xl">
                     PASTORS MICHAEL AND FRANCINA NORMAN

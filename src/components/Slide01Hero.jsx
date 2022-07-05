@@ -25,7 +25,7 @@ function Slide01Hero() {
           <div className="font-semibold text-2xl mb-6 text-neutral">
             Join the Movement!
           </div>
-          <button className="btn btn-accent">Watch Online</button>
+          <a href={process.env.REACT_APP_STREAMING_LINK}><button className="btn btn-accent">Watch Online</button></a>
         </div>
       </div>
     </div>
