@@ -39,7 +39,7 @@ function Slide01Bottom() {
           <h2 className="card-title text-base">Stay Connected</h2>
           <p className="text-sm font-light">
             The Movement Church is a multicultural, multi-ethnic, multi
-            generational kingdom model that demonstrates wholeness, welth,
+            generational kingdom model that demonstrates wholeness, wealth,
             abundant living free from religious barricades.
           </p>
           <div className="w-full flex justify-end">

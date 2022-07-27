@@ -22,9 +22,9 @@ function Slide02() {
                     OUR VISION
                   </div>
                   <div className="card-body text-left py-4">
-                    The Movement Church is a multicuktural, multi-ethnic, multi
+                    The Movement Church is a multicultural, multi-ethnic, multi
                     generational kingdom model that demonstrates wholeness,
-                    welth, abundant living free from religious barricades.
+                    wealth, abundant living free from religious barricades.
                   </div>
                   <div className="card-title p-4 justify-center">
                     OUR MISSION
