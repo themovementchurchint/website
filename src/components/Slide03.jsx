@@ -59,7 +59,7 @@ function Slide03() {
                 <div className="card-body text-xl text-center">
                   No matter where you join us from, we want you to be part of
                   the family and we look forward to connecting with you! Join us
-                  live for Sunday Services Online at 1pm EST.
+                  live for Sunday Services Online at 9AM EST.
                 </div>
                 <div className="card-actions m-4 justify-center">
                   <a href={process.env.REACT_APP_STREAMING_LINK}><button className="btn btn-primary">Watch Live</button></a>
